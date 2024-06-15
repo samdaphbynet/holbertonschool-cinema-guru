@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161616;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 15px;
+}
+
+.navbar .navbarUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbarUser img {
+    width: 41px;
+    height: 41px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 1px solid #BB000E;
+}
+
+.navbar .navbarUser p {
+    margin-right: 20px;
+    letter-spacing: 0.8px;
+}
+
+.navbar .navbarUser span {
+    color: #BB000E;
+    cursor: pointer;
+}

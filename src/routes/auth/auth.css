@@ -1,0 +1,67 @@
+
+/* ===============Authontication ================ */
+.authenticationPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authentication {
+    width: 450px;
+    height: 361px;
+    background-color: #ffffff;
+}
+.authentication .form {
+    width: 100%;
+}
+.authentication button {
+    background-color: #E31C25;
+    width: 50%;
+    height: 48px;
+    color: white;
+    font-size: 16px;
+}
+button.active {
+    background-color: #a7151d;
+    color: white;
+}
+
+/* ===============Login ================ */
+
+.loginPage {
+    width: 354px;
+    height: 313px;
+    margin: auto;
+}
+.loginPage h2 {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 35px 0;
+}
+
+.loginPage input {
+    width: 100%;
+    height: 21px;
+    border: none;
+    border-bottom: 1.7px solid #d40917;
+}
+
+.loginPage .username {
+    margin-bottom: 35px;
+}
+
+.loginPage .submit {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.loginPage .signIn {
+    margin-top: 35px;
+    width: 104px;
+    height: 34px;
+    background-color: #BB000E;
+}
