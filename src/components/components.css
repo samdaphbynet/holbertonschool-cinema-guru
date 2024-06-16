@@ -1,0 +1,17 @@
+.activity {
+    font-size: 12px;
+}
+
+.activity h1 {
+    text-align: center;
+    font-size: 21px;
+    border-bottom: 1.4px solid white;
+}
+
+.activity ul li {
+    padding-top: 7px;
+}
+
+.acrivityTitle {
+    color: #F31D27;
+}

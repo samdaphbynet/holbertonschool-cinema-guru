@@ -36,3 +36,60 @@
     color: #BB000E;
     cursor: pointer;
 }
+
+/* ============ SideBar ================ */
+
+.sidebar {
+    color: white;
+    background-color: #BB000E;
+    width: 60px;
+    height: 888px;
+    display: block;
+    position: relative;
+    transition: all .1s ease-in-out;
+}
+
+.sidebar .sidebar_link {
+    padding-top: 15px;
+}
+
+.sidebar .sidebar_link li {
+    display: flex;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+.icon {
+    margin-right: 10px;
+}
+.sidebar .sidebar_link li p {
+    display: none;
+    margin: 0;
+}
+.sidebar .activityInSidebar {
+    display: none;
+    margin: 10px 3px;
+    padding: 10px;
+    background-color: #2C2C2C;
+}
+.sidebar:hover {
+    width: 250px;
+}
+.sidebar:hover .activityInSidebar {
+    display: block;
+}
+.sidebar:hover .sidebar_link li p {
+    display: block;
+}
+
+.sidebar .sidebar_link li.active {
+    background-color: #E31C25;
+}
+
+.arrow {
+    position: absolute;
+    right: 10px;
+    display: none;
+}
+.sidebar:hover .arrow {
+    display: block;
+}
