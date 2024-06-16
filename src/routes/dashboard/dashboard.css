@@ -1,0 +1,11 @@
+.dashboard {
+    color: white;
+}
+
+.side_and_router {
+    display: flex;
+}
+
+.router {
+    margin: 20px;
+}
