@@ -1,18 +1,23 @@
+import {useState} from "react";
+
 import "./general.css";
 
-function SelectInput(label, options, className, value, setValue) {
+function SelectInput({label, options, className, value, setValue}) {
 
     function handleSelect(e) {
         setValue(e.target.value)
     }
     return (
-        <select label={label} className={className} value={value} onChange={handleSelect} options={options} >
-            {options.map((item) => (
-                <option key={item.value} value={item.value}>
-                    {item.label}
-                </option>
-            ))}
-        </select>
+        <div className={className}>
+            <label>{label}</label>
+            <select value={value} onChange={handleSelect}>
+                {options.map((option) => (
+                    <option key={option.value} value={option.value}>
+                        {option.label}
+                    </option>
+                ))}
+            </select>
+        </div>
     )
 }
 

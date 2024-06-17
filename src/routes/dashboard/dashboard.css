@@ -1,11 +1,17 @@
 .dashboard {
     color: white;
-}
+  }
 
-.side_and_router {
+  
+  .home_page {
+    background-color: #222222;
+  }
+  
+
+  .side_and_router {
     display: flex;
-}
+  }
 
-.router {
-    margin: 20px;
-}
+  .router {
+    width: 100%;
+  }

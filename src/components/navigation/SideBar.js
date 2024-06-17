@@ -42,8 +42,6 @@ const SideBar = () => {
       });
   }, []);
 
-  console.log(activities)
-
   return (
 
         <nav className="sidebar">
