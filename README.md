@@ -1,6 +1,24 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ## Setting up the backend
+
+- Installing docker
+    - This link has all the steps needed for installing docker depending on your system.
+- Installing docker-compose
+    - Official documentation for installing docker-compose
+- Make sure that docker is running before proceeding
+- Cloning and running the backend server
+
+    - Clone this repository on your local machine
+    - cd into the repository folder and run the following commands:
+        - docker-compose build --no-cache --force-rm
+        - docker-compose up
+        - After running the above command you should get an output similar to this indicating that the backend and db are running.
+        ![image running docker](https://samdaph.com/portfolio/running_docker.png)
+
+    - Notes
+    You’ll be adding the base url before each API route mentioned in the tasks: http://localhost:8000/
+
 
 ## Available Scripts
 
