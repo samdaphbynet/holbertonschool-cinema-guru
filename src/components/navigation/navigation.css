@@ -7,6 +7,8 @@
     align-items: center;
     background-color: #161616;
     color: white;
+    position: fixed;
+    z-index: 3;
 }
 
 .navbar .logo {
@@ -43,9 +45,11 @@
     color: white;
     background-color: #BB000E;
     width: 60px;
-    height: 888px;
+    height: 100%;
     display: block;
-    position: relative;
+    position: fixed;
+    top: 70px;
+    z-index: 2;
     transition: all .1s ease-in-out;
 }
 

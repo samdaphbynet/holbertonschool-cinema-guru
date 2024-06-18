@@ -1,17 +1,74 @@
 .dashboard {
-    color: white;
-  }
+  color: white;
+}
 
-  
-  .home_page {
-    background-color: #222222;
-  }
-  
+.home_page {
+  background-color: #222222;
+  margin-top: 8%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .side_and_router {
-    display: flex;
-  }
 
-  .router {
-    width: 100%;
-  }
+.side_and_router {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.router {
+  margin-left: 10%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 2%;
+}
+
+/* favorites page  */
+
+.favorite_page {
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorite_page h1 {
+  font-size: 40px;
+  border-bottom: 2px solid red;
+}
+
+.card_like {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  gap: 3%;
+}
+
+.load_more {
+  align-items: center;
+  padding: 15px 20px;
+  margin: 40px 0;
+  color: white;
+  background-color: rgb(206, 2, 2);
+  cursor: pointer;
+  width: max-content;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.load_more:hover {
+  background-color: rgb(156, 3, 3);
+  color: white;
+}
